@@ -109,3 +109,13 @@ python video_demo.py video.mp4
 ```
 Your  Mask RCNN should work on GPU if everthing works correctly
 
+## Training Mask RCNN Model
+### Preparing Training Data
+Download Images around 60 for training and 6-10 for Valuating
+Use [this](http://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.6.html) to get json training and val file and don't forget to add region attribute for each image
+Place the shampoo folder in Samples folder of mask rcnn and you can test training mask rcnn for shampoo using command:
+```python
+python Shampoo.py train --dataset=/home/seed/Mask_RCNN-master/samples/Shampoo/dataset  --weights=coco
+```
+
+You can use the same structure as Shampoo folder to train your own data and copy ```shampoo.py``` file and find all words Shampoo and replace it with your own traing object name
