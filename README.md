@@ -1,4 +1,4 @@
-# Mark RCNN Repo Setup
+# Mask RCNN Repo Setup
 
 Install [Anaconda](https://docs.anaconda.com/anaconda/install/) for your OS from the different versions available
 
